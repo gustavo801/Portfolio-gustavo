@@ -96,6 +96,9 @@ section.module.parallax-2{
 section.module.parallax-3{
   background-image: url("imagemformss.jpg");
 }
+section.module.parallax-4{
+  background-image: url("responsive-imagem.jpg");
+}
 section.module.parallax h1, h6{
   color: rgba(255, 255, 255, 0.705);
   text-align: right;

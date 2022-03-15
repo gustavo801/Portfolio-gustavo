@@ -1,0 +1,83 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'android'; 
+    src: url(fontes/idroid.otf) format('opentype');
+    font-size: normal; 
+}
+:root {
+        --color0: #7FEB67;  
+        --color1: #78DE62;
+        --color2: #6BC456;
+        --color3: #549944;
+        --color4: #335E2A;
+        
+        --font-normal: Arial, Verdana, sans-serif;
+        --font-destaque: 'android';
+    }
+* {margin: 0px;
+padding: 0px;}
+
+header {background-image: linear-gradient(to bottom, var(--color2), var(--color3), var(--color4));
+margin: auto;
+padding-top: 30px;}
+header > h1 {color: white;
+    padding: 10px;
+text-align: center;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+font-family: var(--font-destaque);}
+header > p {color: white;
+    padding: 30px;
+    margin-bottom: 10px;
+text-align: center;
+text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+font-family: var(--font-normal);}
+nav > a {color: white;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.349);
+    font-family: var(--font-normal);
+text-decoration: none;
+font-weight: bolder;
+transition-duration: .5s;}
+nav {display: flex;
+    justify-content: space-around;}
+nav > a:hover {background-color: #7FEB67;
+color: black}
+article {
+    background-color: #7FEB67;
+margin: auto;
+}
+article > h1, h2 {font-family: var(--font-destaque);
+padding: 19px;
+background-color: white;}
+article > p {
+font-family: var(--font-normal);
+padding: 19px;}
+article > h1, h2, p {text-align: justify;}
+main > article {margin-left: 50px;
+margin-right: 50px;
+border-radius: 50px;
+box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
+margin-top: 0px;
+background-color:white;}
+main {background-color: #7FEB67;}
+picture > img {width: 100%;}
+.small { display: block;
+margin: auto;
+max-width: 50%;}
+article > aside {padding: 25px;
+   
+font-family: var(--font-normal);
+background-image: linear-gradient(to bottom, #b2cddae7, #6096afe7, #178ac0e7);
+border-radius: 20px;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.274);}
+aside > p {padding: 15px;}
+aside > h3 {padding: 15px;}
+aisde > p, h3 {text-align: left;}
+aside > ul {padding: 32px;}
+footer {background-color: #335E2A;
+padding: 15px;
+text-align: center;
+font-family: var(--font-normal);
+margin: auto;}
+footer > p {text-align: center;}
