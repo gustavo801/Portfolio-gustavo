@@ -87,17 +87,21 @@ section.module.parallax:after{
 
 section.module.parallax-1{
   background-image: url("artificialinteligenceimagem1.jpg");
+  background-position: center center 
 }
 
 section.module.parallax-2{
   background-image: url("imagem\ netflix.png");
+  background-position: top right;
 }
 
 section.module.parallax-3{
   background-image: url("imagemformss.jpg");
+  background-position: top right;
 }
 section.module.parallax-4{
   background-image: url("responsive-imagem.jpg");
+  background-position: center center;
 }
 section.module.parallax h1, h6{
   color: rgba(255, 255, 255, 0.705);
